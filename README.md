@@ -6,7 +6,7 @@ Avoid N+1 Queries caused by `count` calls!
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'eager_counting'
+gem 'eager_counting', '~> 0.1'
 ```
 
 And then execute:

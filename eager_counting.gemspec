@@ -12,7 +12,9 @@ Gem::Specification.new do |s|
 
   s.homepage    = 'https://github.com/UniversalAvenue/eager_counting'
   s.summary     = 'Avoid ActiveRecord N+1 Queries caused by `count` calls!'
-  s.description = 'Avoid ActiveRecord N+1 Queries caused by `count` calls!'
+  s.description = <<-EOF
+    Eager Counting allows you to easily perform complex association grouped count queries.
+  EOF
   s.license     = 'MIT'
 
   s.files = Dir['{app,config,db,lib}/**/*', 'LICENSE.txt', 'Rakefile', 'README.md']

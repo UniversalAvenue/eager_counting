@@ -20,11 +20,11 @@ Gem::Specification.new do |s|
   s.files = Dir['{app,config,db,lib}/**/*', 'LICENSE.txt', 'Rakefile', 'README.md']
   s.test_files = Dir['test/**/*']
 
-  s.add_dependency 'activerecord', '>= 4.2', '<= 5.2'
-  s.add_dependency 'activesupport', '>= 4.2', '<= 5.2'
+  s.add_dependency 'activerecord', '>= 4.2', '<= 5.2.2.1'
+  s.add_dependency 'activesupport', '>= 4.2', '<= 5.2.2.1'
 
-  s.add_development_dependency 'rails', '>= 4.2', '<= 5.2'
+  s.add_development_dependency 'rails', '>= 4.2', '<= 5.2.2.1'
   s.add_development_dependency 'sqlite3', '~> 1.3'
-  s.add_development_dependency 'bundler', '~> 1.10'
+  s.add_development_dependency 'bundler', '~> 2.0'
   s.add_development_dependency 'rake', '~> 10.0'
 end

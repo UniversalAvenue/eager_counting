@@ -139,7 +139,7 @@ PLATFORMS
 DEPENDENCIES
   bundler (~> 2.0)
   eager_counting!
-  rails (>= 4.2)
+  rails (>= 4.2, < 7)
   rake (~> 10.0)
   sqlite3 (~> 1.3)
 
